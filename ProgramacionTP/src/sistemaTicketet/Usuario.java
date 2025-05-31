@@ -25,4 +25,32 @@ public class Usuario {
 		
 	}
 	
+	boolean eliminarEntrada(String codigoEntrada) {
+		return false;
+	}
+	
+	boolean existeEntrada(String codigoEntrada) {
+		return true;
+	}
+	
+	
+	/*Entrada buscarEntradaPorCodigo(String codigoEntrada) {
+		
+	}
+	*/
+	
+	boolean validarContraseña(String contraseñaIngresada) {
+		return false;
+	}
+	/*
+	ArrayList<Entrada> listarEntradas()
+	➤ Retorna todas las entradas compradas, ordenadas por fecha.
+
+	ArrayList<Entrada> listarEntradasFuturas()
+	➤ Retorna solo las entradas con fecha posterior o igual a la actual.
+
+	ArrayList<Entrada> listarEntradasPasadas()
+}
+*/
+	
 }
