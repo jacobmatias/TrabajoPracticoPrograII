@@ -29,7 +29,7 @@ public abstract class Sector {
 	 
 	 
 
-
+	 	
 	    public boolean tieneAsientoDisponible() {
 	        return cantidadAsientos > 0;
 	    }
